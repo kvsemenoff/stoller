@@ -5,7 +5,7 @@
 <?php require('includes/effect.php'); ?>
 <?php require_once('includes/sostav.php'); ?>
 <?php require_once('includes/green.php'); ?>
-<?php require('includes/effect.php'); ?>
+<?php require('includes/effect2.php'); ?>
 <?php require_once('includes/rezult.php'); ?>
 <?php require_once('includes/four.php'); ?>
 <?php require_once('includes/testimonials.php'); ?>

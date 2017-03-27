@@ -17,5 +17,5 @@
 </head>
 <body>
 	
-
-	
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/owl.carousel/owl.carousel.js"></script>
