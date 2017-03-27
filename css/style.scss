@@ -23,6 +23,7 @@
 	color: #999;
 	font-size: 15px;
 	position: relative;
+	font-family: "MuseoSansCyrl_300";
 }
 .input_view__name{
 	background:#fff url(../img/chel.png) no-repeat left 18px center;
@@ -49,6 +50,8 @@
 	line-height: 40px;
 	border: none;
 	outline: none;
+	font-family: "MuseoSansCyrl_500";
+
 }
 .button_view:hover{
 	background:#FFE42A;
