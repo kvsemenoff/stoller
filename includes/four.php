@@ -1,8 +1,44 @@
-<section class="section section_padding">
-<div class=" container">
-	<div class="row">
-		<div class="col-md-12">
+<section class="section">
+	<div class=" container">
+		<div class="row">
+			
+			<div class="dd-four-box">
+				<div class="dd-four-img">
+					<img class="img-responsive" src="img/k1.jpg" alt="">
+				</div>	
+				<div class="dd-four-txt">
+					<p>Контроль</p>
+				</div>
+			</div>
+
+			<div class="dd-four-box">
+				<div class="dd-four-img">
+					<img class="img-responsive" src="img/k2.jpg" alt="">
+				</div>	
+				<div class="dd-four-txt">
+					<p>Bioforge</p>
+				</div>
+			</div>
+
+			<div class="dd-four-box">
+				<div class="dd-four-img">
+					<img class="img-responsive" src="img/k3.jpg" alt="">
+				</div>	
+				<div class="dd-four-txt">
+					<p>Контроль</p>
+				</div>
+			</div>
+
+			<div class="dd-four-box">
+				<div class="dd-four-img">
+					<img class="img-responsive" src="img/k4.jpg" alt="">
+				</div>	
+				<div class="dd-four-txt">
+					<p>Bioforge</p>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+
 		</div>
 	</div>
-</div>
 </section>
