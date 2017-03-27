@@ -34,7 +34,7 @@
 	background:#fff url(../img/em.png) no-repeat left 18px center;
 }
 
-/* Кнопка - 2 модификатора
+/* Кнопка - 3 модификатора
 ============================*/
 .button_view{
 	display: inline-block;
@@ -47,6 +47,8 @@
 	font-size: 15px;
 	color: white;
 	line-height: 40px;
+	border: none;
+	outline: none;
 }
 .button_view:hover{
 	background:#FFE42A;
@@ -63,6 +65,7 @@
 	height: 56px;
 	line-height: 56px;
 }
+
 
 @media only screen and (min-width : 320px) {
 }
