@@ -172,8 +172,9 @@
 	}
 }
 .dd-four-box{
-	margin: 10px auto;
-	width: 25%;
+	margin: 0px auto;
+	width: 100%;
+	// width: 25%;
 }
 .dd-four-txt{
 	text-align: center;
@@ -222,9 +223,9 @@
 =============================*/
 .video-wrap{
 	width: 100%;
-	background:url(../img/vid.jpg) no-repeat top center;
-	background-size:cover;
-	height: 564px;
+	// background:url(../img/vid.jpg) no-repeat top center;
+	// background-size:cover;
+	// height: 564px;
 }
 .pos-rel{
 	position: relative;
@@ -240,6 +241,13 @@
 }
 
 @media only screen and (min-width : 480px) {
+	.dd-four-box{
+		float: left;
+		margin-top: 0px;
+	}
+	.dd-four-box{
+		width: 25%;
+	}
 }
 
 @media only screen and (min-width : 768px) {

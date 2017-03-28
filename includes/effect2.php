@@ -13,7 +13,7 @@
 
 			<div class="form_container">
 
-				<form id="js-submit"  action="#" method="post">
+				<form class="js-submit"  action="#" method="post">
 					<div class="col-lg-3">
 					<div class="dd-input-wrap">
 						<input class="input_view input_view__name" name="uname" type="text" placeholder="Имя">
