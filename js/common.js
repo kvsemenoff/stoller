@@ -21,6 +21,7 @@ $(".js-phone").mask("+7 (999) 999 - 99 - 99?");
     $('#js-mask').on("click", function(){
         $('#js-mask').hide();
         $('.js-window').hide();
+        $('body').removeAttr("style");
 
     });
 

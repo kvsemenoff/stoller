@@ -34,4 +34,3 @@
 			Наш менджер свяжется с вами.</p>
 	</div>
 	<a href="#js-form2" name="js-modal"></a>
-	<a href="#js-form1" name="js-modal">POpAP</a>
