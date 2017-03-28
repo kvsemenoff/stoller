@@ -2,7 +2,7 @@
 <div class=" container">
 	<div class="row">
 		<div class="col-md-4">
-		<img src="img/header_top.png" alt="img" class="img-responsive db-header-logo">
+		<a href="/"><img src="img/header_top.png" alt="img" class="img-responsive db-header-logo"></a>
 		</div>
 		<div class="col-md-4">
 		<span class="db-header_tel">+ (380) 44-498-52-35</span><br>
