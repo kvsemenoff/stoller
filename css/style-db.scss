@@ -82,6 +82,33 @@
 		line-height: 50px;
 	}
 }
+.section_sress_view{
+	 max-width: 1170px;
+	 margin: 0 auto;
+}
+
+.db-stress-fon1{
+	
+	background:url("../img/db-stress-fon1.jpg")no-repeat top center;
+	height: 656px;
+float: left;
+max-width: 50%;
+width: 100%;
+}
+.db-stress-p1{
+	background:#f3f3f3;
+	color: #444;
+	font-family: "MuseoSansCyrl_500";
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+	height: 656px;
+	line-height: 656px;
+	float: left;
+	max-width: 50%;
+	width: 100%;
+}
+
 @media only screen and (min-width : 320px) {
 }
 
