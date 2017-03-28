@@ -21,7 +21,7 @@
 					</div>
 					<div class="col-lg-3">
 					<div class="dd-input-wrap">
-						<input class="input_view input_view__phone phone" name="phone" type="text" placeholder="Телефон">	
+						<input class="input_view input_view__phone js-phone" name="phone" type="text" placeholder="Телефон">	
 					</div>
 					</div>
 					<div class="col-lg-3">
