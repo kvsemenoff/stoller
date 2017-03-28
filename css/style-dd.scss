@@ -172,8 +172,8 @@
 	}
 }
 .dd-four-box{
-	max-width: 292px;
 	margin: 10px auto;
+	width: 25%;
 }
 .dd-four-txt{
 	text-align: center;
@@ -186,6 +186,10 @@
 	}
 }
 .dd-four-img{
+	height: 404px;
+	img{
+		width: 100% !important;
+	}
 	.img-responsive{
 		height: 404px !important;
 	}
@@ -209,7 +213,7 @@
 @media only screen and (min-width : 992px) {
 	.dd-four-box{
 		float: left;
-		margin-top: -2px;
+		margin-top: 0px;
 	}
 	.dd-left_sostav{
 		text-align: left;

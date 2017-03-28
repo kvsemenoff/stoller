@@ -1,5 +1,5 @@
-<section>
-	<div class="container dd-form_wrap">
+<section class="dd-form_wrap">
+	<div class="container ">
 		<div class="row">
 
 			<div class="col-md-12">
