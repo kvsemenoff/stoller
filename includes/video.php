@@ -1,8 +1,9 @@
-<section class="section section_padding">
-<div class=" container">
-	<div class="row">
-		<div class="col-md-12">
-		</div>
+<section class="section video-wrap">
+	<div class="container pos-rel">
+		<a href="#">
+			<div class="dd-play">
+				<img src="img/play.png" alt="">
+			</div>
+		</a>
 	</div>
-</div>
 </section>
