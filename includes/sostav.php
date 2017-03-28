@@ -1,5 +1,5 @@
-<section>
-	<div class="container dd-sostav">
+<section class="dd-sostav">
+	<div class="container ">
 		<div class="row">
 
 			<div class="col-md-8">
