@@ -13,7 +13,7 @@
 
 			<div class="form_container">
 
-				<form class="" action="#" method="post">
+				<form id="js-submit" action="#" method="post">
 					<div class="col-lg-3">
 					<div class="dd-input-wrap">
 						<input class="input_view input_view__name" name="uname" type="text" placeholder="Имя">
@@ -31,7 +31,7 @@
 					</div>
 					<div class="col-lg-3">
 					<div class="dd-input-wrap">
-						<input class="button_view" type="submit" name="submit" value="отправить">
+						<input class="button_view" type="submit" value="отправить">
 					</div>
 					</div>
 					<div class="clearfix"></div>
