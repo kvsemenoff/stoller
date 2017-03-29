@@ -258,6 +258,8 @@ q:before, q:after {
 		max-width: 300px;
 		margin: 0 auto;
 		display: block;
+		height: 300px;
+		padding-top: 20px;
 	}
 }
 .db-stress-p3{
@@ -381,11 +383,11 @@ box-shadow: rgba(81, 203, 238, 1);
 		background: #fff;
 		padding-top: 100px;
 		img{
-			width: 420px;
-			height: 540px;
+			
 			margin: 0 auto;
 			display: block;
 			max-width: unset;
+			height: unset;
 		}
 	}
 	.db-stress-fon2{
