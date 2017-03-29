@@ -1,4 +1,4 @@
-<section class="section">
+<section class="dd-sec">
 <!-- 	<div class=" container">
 	<div class="row"> -->
 
@@ -7,17 +7,17 @@
 				<span>Результат</span><br>
 				<span>Всходы</span>
 			</div>
-			<div class="dd-four-box dd-four-box_1">
-				<div class="dd-four-img">
+			<div class="dd-four-box dd-four-box_1 ">
+				<div class="dd-four-img mm">
 					<img class="img-responsive" src="img/k1.jpg" alt="">
 				</div>	
-				<div class="dd-four-txt">
+				<div class="dd-four-txt ">
 					<p>Контроль</p>
 				</div>
 			</div>
 
 			<div class="dd-four-box dd-four-box_1">
-				<div class="dd-four-img dd-four-img2">
+				<div class="dd-four-img dd-four-img2 mt">
 					<img class="img-responsive" src="img/k2.jpg" alt="">
 				</div>	
 				<div class="dd-four-txt">
@@ -35,7 +35,7 @@
 				<span>Восстановление после града</span>
 			</div>
 			<div class="dd-four-box dd-four-box_2">
-				<div class="dd-four-img dd-four-img3">
+				<div class="dd-four-img dd-four-img3 mt2">
 					<img class="img-responsive" src="img/k3.jpg" alt="">
 				</div>	
 				<div class="dd-four-txt">
