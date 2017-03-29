@@ -21,7 +21,7 @@
 <!-- POPAPS -->
 <div class="js-window" id="js-form1">
 	<form action="#" method="post" class="js-submit db-form1">
-	<p>Закажите<br>
+		<p>Закажите<br>
 			обратный звонок!</p>
 			<input type="text" name="uname" placeholder="Имя" class="input_view input_view__name db-input1"><br><br>
 			<input type="text" name="phone" placeholder="Телефон" class="js-phone input_view  db-input2 input_view__phone"><br><br>
@@ -30,7 +30,12 @@
 		</form>
 	</div>
 	<div class="js-window" id="js-form2">
-			<p class="thanks">Спасибо за заявку! <br>
+		<p class="thanks">Спасибо за заявку! <br>
 			Наш менджер свяжется с вами.</p>
-	</div>
-	<a href="#js-form2" name="js-modal"></a>
+		</div>
+		<a href="#js-form2" name="js-modal"></a>
+		<!-- JS_BLOCK !-->
+		<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/jquery.maskedinput.min.js"></script>
+		<script src="libs/owl.carousel/owl.carousel.js"></script>
