@@ -2,33 +2,6 @@
 
 $(document).ready(function(){
 
-
-    $(window).resize(function(){
-        if($(this) > 1200){
-            $( window ).scroll(function() { 
-
-                var topValue = -$( this ).scrollTop() / 2; 
-                var opacityValueTel = 1.5 - (( $( this ).scrollTop() / 100) * 0.9); 
-
-                $( '.h-tel' ).css({ 
-
-                    top: topValue, 
-                    opacity: opacityValueTel 
-
-                }); 
-
-                var opacityValueLogo = 1.5 - (( $( this ).scrollTop() / 100) * 0.7); 
-
-                $( '.h-logo-img' ).css({ 
-
-                    top: topValue, 
-                    opacity: opacityValueLogo 
-
-                }); 
-
-            });
-        }
-    });
     /*MODAL WINDOW*/
     $(".js-phone").mask("+380 99 - 999 - 99 - 99?");
 
