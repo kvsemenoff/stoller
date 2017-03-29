@@ -6,7 +6,7 @@
 		</div>
 		<div class="col-md-4">
 		<span class="db-header_tel">+ (380) 44-498-52-35</span><br>
-		<span class="db-header_tel">+ (380) 44-498-52-35</span>
+		<span class="db-header_tel">+ (380) 97-498-52-35</span>
 		</div>
 		<div class="col-md-4">
 		<a href="#js-form1" name="js-modal" class="button_view button_view__header db-header-button">заказать звонок</a><br>
