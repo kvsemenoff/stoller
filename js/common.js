@@ -1,6 +1,31 @@
 
 
 $(document).ready(function(){
+        var owl2 = $("#dd-slider");
+    owl2.owlCarousel({
+        loop:true,
+        nav:true, 
+        autoplay:false,
+        smartSpeed:1000,
+        margin:25,
+        center:false,   
+        navText:['<span class="nav-left"></span>','<span class="nav-right"></span>'],
+        responsive:{
+            0:{
+                items:1
+            },
+            480:{
+                items:1 
+            },
+            990:{
+                items:1
+            },      
+
+            1248:{
+                items:1
+            }
+        }
+    });
 
     /*MODAL WINDOW*/
     $(".js-phone").mask("+380 99 - 999 - 99 - 99?");
