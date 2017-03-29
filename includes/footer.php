@@ -15,6 +15,9 @@
 			</div>
 		</div>
 	</div>
+	<div id="toTop" >
+	<img src="img/top.png" alt="">
+</div>
 </section>
 <!-- MASK -->
 <div class="mask" id="js-mask"></div>
@@ -34,3 +37,18 @@
 			Наш менджер свяжется с вами.</p>
 	</div>
 	<a href="#js-form2" name="js-modal"></a>
+
+<script>
+	$(function() {
+		$(window).scroll(function() {
+			if($(this).scrollTop() != 0) {
+				$('#toTop').fadeIn();
+			} else {
+				$('#toTop').fadeOut();
+			}
+		});
+		$('#toTop').click(function() {
+			$('body,html').animate({scrollTop:0},800);
+		});
+	});
+</script>

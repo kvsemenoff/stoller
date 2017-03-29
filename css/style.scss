@@ -25,6 +25,10 @@
 	position: relative;
 	font-family: "MuseoSansCyrl_300";
 }
+.input_view:focus{
+	border:1px solid #FFBA00;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 186, 0, 0.9); 
+}
 .input_view__name{
 	background:#fff url(../img/chel.png) no-repeat left 18px center;
 }

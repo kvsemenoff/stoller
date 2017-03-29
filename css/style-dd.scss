@@ -205,7 +205,7 @@
 	p{
 		font-size: 18px;
 		color: #444;
-		font-family: "MuseoSansCyrl_300";
+		font-family: "MuseoSansCyrl_500";
 
 	}
 }
@@ -223,9 +223,6 @@
 =============================*/
 .video-wrap{
 	width: 100%;
-	// background:url(../img/vid.jpg) no-repeat top center;
-	// background-size:cover;
-	// height: 564px;
 }
 .pos-rel{
 	position: relative;
@@ -236,18 +233,42 @@
 	transform: translateX(-50%);
 	top:210px;	
 }
+#toTop {
+	padding:5px;
+	position:fixed;
+	bottom:10px; 
+	right:20px;
+	cursor:pointer;
+	display:none;
+}
+.dd-title-mob{
+	background:#FFBA00;
+	text-align: center;
+	padding: 20px 0px; 	
+	span:first-child{
+		font-size: 45px;
+		line-height: 50px;
+		font-family: "MuseoSansCyrl_500";
+		color:#fff;
+		text-transform:uppercase;
+	}
+	span:last-child{
+		color:#fff;
+		font-family: "MuseoSansCyrl_500";
+		font-size: 18px;
+		text-transform:uppercase;
+	}
+}
+.section_result_view{
+	display: none;
+}
 
 @media only screen and (min-width : 320px) {
+
 }
 
 @media only screen and (min-width : 480px) {
-	.dd-four-box{
-		float: left;
-		margin-top: 0px;
-	}
-	.dd-four-box{
-		width: 25%;
-	}
+
 }
 
 @media only screen and (min-width : 768px) {
@@ -257,11 +278,29 @@
 		border:18px solid #fff;
 		border-radius: 48px;
 	}
+	.dd-four-box1, .dd-four-box2 {
+		float: left;
+		margin-top: 0px;
+	}
+	.dd-four-box{
+		width: 50%;
+		// width: 25%;
+	}
 }
 
 @media only screen and (min-width : 992px) {
+	.section_result_view{
+		display: block;
+	}
+	.dd-title-mob{
+		display: none;
+	}
+	.none{
+		display: none;
+	}
 	.dd-four-box{
 		float: left;
+		width: 25%;
 		margin-top: 0px;
 	}
 	.dd-left_sostav{
