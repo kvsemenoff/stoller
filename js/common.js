@@ -50,6 +50,19 @@ $(document).ready(function(){
 
     });
 
+            $(function() {
+                $(window).scroll(function() {
+                    if($(this).scrollTop() != 0) {
+                        $('#toTop').fadeIn();
+                    } else {
+                        $('#toTop').fadeOut();
+                    }
+                });
+                $('#toTop').click(function() {
+                    $('body,html').animate({scrollTop:0},800);
+                });
+            });
+
     /*MODAL SUBMIT*/
     $('.js-submit').submit(function(){
         var phone = $(this).find('input[name="phone"]');

@@ -16,26 +16,26 @@
 
 </head>
 <body>
-<section class="section section_padding section_header_view">
-<div class=" container">
-	<div class="row">
-		<div class="col-md-4">
-		<a href="/"><img src="img/header_top.png" alt="img" class="img-responsive db-header-logo"></a>
+	<section class="section section_padding section_header_view">
+		<div class=" container">
+			<div class="row">
+				<div class="col-md-4">
+					<a href="/"><img src="img/header_top.png" alt="img" class="img-responsive db-header-logo"></a>
+				</div>
+				<div class="col-md-4">
+					<span class="db-header_tel">+ (380) 44-498-52-35</span><br>
+					<span class="db-header_tel">+ (380) 97-498-52-35</span>
+				</div>
+				<div class="col-md-4">
+					<a href="#js-form1" name="js-modal" class="button_view button_view__header db-header-button">заказать звонок</a><br>
+					<span class="db-header-mess">info@stollerukraine.com.ua</span>
+				</div>
+				<div class="clearfix"></div>
+			</div>
 		</div>
-		<div class="col-md-4">
-		<span class="db-header_tel">+ (380) 44-498-52-35</span><br>
-		<span class="db-header_tel">+ (380) 97-498-52-35</span>
-		</div>
-		<div class="col-md-4">
-		<a href="#js-form1" name="js-modal" class="button_view button_view__header db-header-button">заказать звонок</a><br>
-		<span class="db-header-mess">info@stollerukraine.com.ua</span>
-		</div>
-		<div class="clearfix"></div>
-	</div>
-</div>
-</section>
-<section class="section video-wrap">
-	<iframe width="100%" height="564" src="https://www.youtube.com/embed/Y5DaECIwuLU" frameborder="0" allowfullscreen></iframe>
+	</section>
+	<section class="section video-wrap">
+		<iframe width="100%" height="564" src="https://www.youtube.com/embed/Y5DaECIwuLU" frameborder="0" allowfullscreen></iframe>
 <!-- 	<div class="container">
 		<a href="#">
 			<div class="dd-play">
@@ -76,218 +76,218 @@
 			<div class="clearfix"></div>
 		</div>
 	</section>
-<section class="dd-form_wrap">
-	<div class="container ">
-		<div class="row">
+	<section class="dd-form_wrap">
+		<div class="container ">
+			<div class="row">
 
-			<div class="col-md-12">
-				<div class="dd-title_form">
-					<p>Рассчитать эффект от использования Stoller<br>
-						на собственном хозяйстве?
+				<div class="col-md-12">
+					<div class="dd-title_form">
+						<p>Рассчитать эффект от использования Stoller<br>
+							на собственном хозяйстве?
+						</p>
+					</div>	
+				</div>
+				<div class="clearfix"></div>
+
+				<div class="form_container">
+
+					<form class="js-submit" action="#" method="post">
+						<div class="col-lg-3">
+							<div class="dd-input-wrap">
+								<input class="input_view input_view__name" name="uname" type="text" placeholder="Имя">
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="dd-input-wrap">
+								<input class="input_view input_view__phone js-phone" name="phone" type="text" placeholder="Телефон">	
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="dd-input-wrap">
+								<input class="input_view input_view__email" name="email" type="text" placeholder="E-mail">	
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="dd-input-wrap">
+								<input class="button_view" type="submit" value="отправить">
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</form>
+
+				</div>
+
+			</div>
+		</div>
+
+	</section>
+	<section class="dd-sostav">
+		<div class="container ">
+			<div class="row">
+
+				<div class="col-md-8">
+					<div class="dd-left_sostav">
+						<p>
+							В состав препарата входит<br>
+							запатентованное соеденение -<br>
+							антиоксидант - диформил мочевина
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+
+					<div class="dd-right_sostav">
+						<p>
+							Примените<br>
+							<b>BIOFORGE</b><br>
+							и вы увидите результат
+						</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+
+			</div>
+		</div>
+	</section>
+	<section class="section section_padding dd-green-wrap">
+		<div class=" container">
+			<div class="row">
+
+				<div class="col-md-3">
+					<div class="dd-box_green">
+						<div class="dd-green-img">
+							<img class="img-responsive" src="img/g1.png" alt="">
+						</div>	
+						<div class="dd-green-txt">
+							<p>Обеспечивают<br> профилактику стресса</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="dd-box_green">
+						<div class="dd-green-img">
+							<img class="img-responsive" src="img/g2.png" alt="">
+						</div>	
+						<div class="dd-green-txt">
+							<p>Способствует быстрому восстановлению<br> растений после повреждений</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="dd-box_green">
+						<div class="dd-green-img">
+							<img class="img-responsive" src="img/g3.png" alt="">
+						</div>	
+						<div class="dd-green-txt">
+							<p>Оказывает анти-<br> оксидантное воздействие</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>	
+
+				<div class="col-md-3">
+					<div class="dd-box_green">
+						<div class="dd-green-img dd-green-img4">
+							<img class="img-responsive" src="img/g4.png" alt="">
+						</div>	
+						<div class="dd-green-txt">
+							<p>Поддерживает оптимальный<br> гормональный баланс</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="dd-box_green">
+						<div class="dd-green-img">
+							<img class="img-responsive" src="img/g5.png" alt="">
+						</div>	
+						<div class="dd-green-txt">
+							<p>Способствует постоянному<br> росту корневой системы</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="dd-box_green">
+						<div class="dd-green-img">
+							<img class="img-responsive" src="img/g6.png" alt="">
+						</div>	
+						<div class="dd-green-txt">
+							<p>Повышает устойчивость<br> растений к засухе</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>	
+
+			</div>
+		</div>
+	</section>
+
+	<section class="dd-form_wrap dd-form_wrap2">
+		<div class="container ">
+			<div class="row">
+
+				<div class="col-md-12">
+					<div class="dd-title_form">
+						<p>Рассчитать эффект от использования Stoller<br>
+							на собственном хозяйстве?
+						</p>
+					</div>	
+				</div>
+				<div class="clearfix"></div>
+
+				<div class="form_container">
+
+					<form class="js-submit"  action="#" method="post">
+						<div class="col-lg-3">
+							<div class="dd-input-wrap">
+								<input class="input_view input_view__name" name="uname" type="text" placeholder="Имя">
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="dd-input-wrap">
+								<input class="input_view input_view__phone js-phone" name="phone" type="text" placeholder="Телефон">	
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="dd-input-wrap">
+								<input class="input_view input_view__email" name="email" type="text" placeholder="E-mail">	
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="dd-input-wrap">
+								<input class="button_view" type="submit" name="submit" value="отправить">
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</form>
+
+				</div>
+
+			</div>
+		</div>
+
+	</section>
+	<section class="section section_padding section_result_view">
+		<div class=" container">
+			<div class="row">
+				<div class="col-md-6">
+					<p class="result-db-p"><span>результат</span><br>
+						всходы
 					</p>
-				</div>	
-			</div>
-			<div class="clearfix"></div>
-
-			<div class="form_container">
-
-				<form class="js-submit" action="#" method="post">
-					<div class="col-lg-3">
-					<div class="dd-input-wrap">
-						<input class="input_view input_view__name" name="uname" type="text" placeholder="Имя">
-					</div>
-					</div>
-					<div class="col-lg-3">
-					<div class="dd-input-wrap">
-						<input class="input_view input_view__phone js-phone" name="phone" type="text" placeholder="Телефон">	
-					</div>
-					</div>
-					<div class="col-lg-3">
-					<div class="dd-input-wrap">
-						<input class="input_view input_view__email" name="email" type="text" placeholder="E-mail">	
-					</div>
-					</div>
-					<div class="col-lg-3">
-					<div class="dd-input-wrap">
-						<input class="button_view" type="submit" value="отправить">
-					</div>
-					</div>
-					<div class="clearfix"></div>
-				</form>
-
-			</div>
-
-		</div>
-	</div>
-
-</section>
-<section class="dd-sostav">
-	<div class="container ">
-		<div class="row">
-
-			<div class="col-md-8">
-				<div class="dd-left_sostav">
-					<p>
-						В состав препарата входит<br>
-						запатентованное соеденение -<br>
-						антиоксидант - диформил мочевина
+				</div>
+				<div class="col-md-6">
+					<p class="result-db-p"><span>результат</span><br>
+						восстановление после града
 					</p>
 				</div>
 			</div>
-			<div class="col-md-4">
-
-			<div class="dd-right_sostav">
-					<p>
-						Примените<br>
-						<b>BIOFORGE</b><br>
-						и вы увидите результат
-					</p>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-
 		</div>
-	</div>
-</section>
-<section class="section section_padding dd-green-wrap">
-	<div class=" container">
-		<div class="row">
+	</section>
 
-			<div class="col-md-3">
-				<div class="dd-box_green">
-					<div class="dd-green-img">
-						<img class="img-responsive" src="img/g1.png" alt="">
-					</div>	
-					<div class="dd-green-txt">
-						<p>Обеспечивают<br> профилактику стресса</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-6">
-				<div class="dd-box_green">
-					<div class="dd-green-img">
-						<img class="img-responsive" src="img/g2.png" alt="">
-					</div>	
-					<div class="dd-green-txt">
-						<p>Способствует быстрому восстановлению<br> растений после повреждений</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-3">
-				<div class="dd-box_green">
-					<div class="dd-green-img">
-						<img class="img-responsive" src="img/g3.png" alt="">
-					</div>	
-					<div class="dd-green-txt">
-						<p>Оказывает анти-<br> оксидантное воздействие</p>
-					</div>
-				</div>
-			</div>
-			<div class="clearfix"></div>	
-
-			<div class="col-md-3">
-				<div class="dd-box_green">
-					<div class="dd-green-img dd-green-img4">
-						<img class="img-responsive" src="img/g4.png" alt="">
-					</div>	
-					<div class="dd-green-txt">
-						<p>Поддерживает оптимальный<br> гормональный баланс</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-6">
-				<div class="dd-box_green">
-					<div class="dd-green-img">
-						<img class="img-responsive" src="img/g5.png" alt="">
-					</div>	
-					<div class="dd-green-txt">
-						<p>Способствует постоянному<br> росту корневой системы</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-3">
-				<div class="dd-box_green">
-					<div class="dd-green-img">
-						<img class="img-responsive" src="img/g6.png" alt="">
-					</div>	
-					<div class="dd-green-txt">
-						<p>Повышает устойчивость<br> растений к засухе</p>
-					</div>
-				</div>
-			</div>
-			<div class="clearfix"></div>	
-
-		</div>
-	</div>
-</section>
-
-<section class="dd-form_wrap dd-form_wrap2">
-	<div class="container ">
-		<div class="row">
-
-			<div class="col-md-12">
-				<div class="dd-title_form">
-					<p>Рассчитать эффект от использования Stoller<br>
-						на собственном хозяйстве?
-					</p>
-				</div>	
-			</div>
-			<div class="clearfix"></div>
-
-			<div class="form_container">
-
-				<form class="js-submit"  action="#" method="post">
-					<div class="col-lg-3">
-					<div class="dd-input-wrap">
-						<input class="input_view input_view__name" name="uname" type="text" placeholder="Имя">
-					</div>
-					</div>
-					<div class="col-lg-3">
-					<div class="dd-input-wrap">
-						<input class="input_view input_view__phone js-phone" name="phone" type="text" placeholder="Телефон">	
-					</div>
-					</div>
-					<div class="col-lg-3">
-					<div class="dd-input-wrap">
-						<input class="input_view input_view__email" name="email" type="text" placeholder="E-mail">	
-					</div>
-					</div>
-					<div class="col-lg-3">
-					<div class="dd-input-wrap">
-						<input class="button_view" type="submit" name="submit" value="отправить">
-					</div>
-					</div>
-					<div class="clearfix"></div>
-				</form>
-
-			</div>
-
-		</div>
-	</div>
-
-</section>
-<section class="section section_padding section_result_view">
-	<div class=" container">
-		<div class="row">
-			<div class="col-md-6">
-			<p class="result-db-p"><span>результат</span><br>
-					всходы
-				</p>
-			</div>
-			<div class="col-md-6">
-				<p class="result-db-p"><span>результат</span><br>
-					восстановление после града
-				</p>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="section">
+	<section class="section">
 <!-- 	<div class=" container">
 	<div class="row"> -->
 
@@ -429,8 +429,8 @@
 		</div>
 	</div>
 	<div id="toTop" >
-	<img src="img/top.png" alt="">
-</div>
+		<img src="img/top.png" alt="">
+	</div>
 </section>
 <!-- MASK -->
 <div class="mask" id="js-mask"></div>
@@ -449,31 +449,17 @@
 		<p class="thanks">Спасибо за заявку! <br>
 			Наш менджер свяжется с вами.</p>
 
-	</div>
-	<a href="#js-form2" name="js-modal"></a>
-
-<script>
-	$(function() {
-		$(window).scroll(function() {
-			if($(this).scrollTop() != 0) {
-				$('#toTop').fadeIn();
-			} else {
-				$('#toTop').fadeOut();
-			}
-		});
-		$('#toTop').click(function() {
-			$('body,html').animate({scrollTop:0},800);
-		});
-	});
-</script>
-
 		</div>
 		<a href="#js-form2" name="js-modal"></a>
-		<!-- JS_BLOCK !-->
-		<script src="libs/jquery/jquery-1.11.1.min.js"></script>
-		<script src="js/common.js"></script>
-		<script src="js/jquery.maskedinput.min.js"></script>
-		<script src="libs/owl.carousel/owl.carousel.js"></script>
+
+
+	</div>
+	<a href="#js-form2" name="js-modal"></a>
+	<!-- JS_BLOCK !-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="libs/owl.carousel/owl.carousel.js"></script>
 
 </body>
 </html>
