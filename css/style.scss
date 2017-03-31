@@ -202,8 +202,31 @@ footer, header, hgroup, menu, nav, section {
 		line-height: 50px;
 	}
 }
+.db-stress-box{
+	margin-top: -16px;
+	position: relative;
 
+}
 
+.db-stress-box:before{
+	background: url("../img/bg-p.png")no-repeat;
+	content:"";
+	width: 100%;
+	height: 98px;
+	display: block;
+	background-size: cover;
+	position: relative;
+
+}
+
+.db-stress-span{
+	font-family: "MuseoSansCyrl_500";
+	color: #82a955;
+	font-size: 40px;
+	text-transform: uppercase;
+	display: block;
+	padding-bottom: 20px;
+}
 .db-stress-fon1{
 	width: 100%;
 	background:url("../img/db-stress-fon1.jpg")no-repeat center center;
@@ -224,35 +247,34 @@ footer, header, hgroup, menu, nav, section {
 	width: 100%;
 	background:url("../img/db-stress-fon2.jpg")no-repeat center center;
 	height: 400px;
-	margin-top: -15px;
+	margin-top: -23px;
 }
 .db-stress-p2{
-	margin-top: -20px;
+	padding: 35px 0;
+	margin-top: -23px;
+	background:#f3f3f3;
 	width: 100%;
 	text-align: center;
 	.db-stress-span2{
-		background-color: #f3f3f3;
+		line-height: 25px;
 		display: block;
 		color: #444;
 		font-family: "MuseoSansCyrl_300";
-		font-size: 16px;
-		line-height: 30px;
-		padding: 55px 3px;
+		font-size: 12px;
+
 	}
 	.db-stress-span1{
-		background:url("../img/bg-p.png")no-repeat top center;
+
 		color: white;
 		font-family: "MuseoSansCyrl_500";
 		font-size: 36px;
 		display: block;
 		text-transform: uppercase;
 		background-size:cover;
-		padding: 40px 0;
 	}
 }
 .db-stress-fon3{
 	width: 100%;
-	margin-top: -10px;
 	background: #fff;
 	img{
 		max-width: 300px;
@@ -262,29 +284,22 @@ footer, header, hgroup, menu, nav, section {
 		padding-top: 20px;
 	}
 }
-.db-stress-p3{
-	margin-top: -20px;
+.db-stress-p3{	
+	padding: 35px 0;
+	margin-top: -23px;
 	width: 100%;
 	text-align: center;
+	background:#f3f3f3;
 	.db-stress-span3{
-		background-color: #f3f3f3;
+		padding-top: 10px;
+		line-height: 25px;
 		display: block;
 		color: #444;
 		font-family: "MuseoSansCyrl_300";
-		font-size: 16px;
-		line-height: 30px;
-		padding: 50px 0;
+		font-size: 12px;
 	}
-	.db-stress-span1{
-		background:url("../img/bg-p.png")no-repeat top center;
-		color: white;
-		font-family: "MuseoSansCyrl_500";
-		font-size: 36px;
-		display: block;
-		text-transform: uppercase;
-		background-size:cover;
-		padding: 40px 0;
-	}
+	
+
 }
 
 .mask{
@@ -369,6 +384,14 @@ input:focus {
 }
 
 @media only screen and (min-width : 992px) {
+	.db-stress-span{
+		font-family: "MuseoSansCyrl_500";
+		color: #82a955;
+		font-size: 48px;
+		text-transform: uppercase;
+		display: block;
+		padding-bottom: 30px;
+	}
 	.thanks{
 		font-size: 30px;
 	}
@@ -378,7 +401,7 @@ input:focus {
 	}
 	.db-stress-fon3{
 		width: 50%;
-		margin-top: -10px;
+
 		float: left;
 		background: #fff;
 		padding-top: 100px;
@@ -395,31 +418,30 @@ input:focus {
 		background: url(../img/db-stress-fon2.jpg) no-repeat top 13% left 84%;
 		height: 656px;
 		float: left;
-		margin-top: -15px;
+
 	}
 	.db-stress-p3{
-		margin-top: -15px;
+		padding: 160px 0;
+		height: 656px;
 		float: left;
 		width: 50%;
 		text-align: center;
 		.db-stress-span3{
-			background-color: #f3f3f3;
+
 			display: block;
 			color: #444;
 			font-family: "MuseoSansCyrl_300";
 			font-size: 18px;
-			line-height: 30px;
-			padding: 208px 0;
+
 		}
 		.db-stress-span1{
-			background:url("../img/bg-p.png")no-repeat top center;
 			color: white;
 			font-family: "MuseoSansCyrl_500";
 			font-size: 48px;
 			display: block;
 			text-transform: uppercase;
 			background-size:cover;
-			padding: 40px 0;
+
 		}
 	}
 	.db-stress-fon2{
@@ -427,22 +449,20 @@ input:focus {
 		background: url(../img/db-stress-fon2.jpg) no-repeat top 13% left 84%;
 		height: 656px;
 		float: left;
-		margin-top: -15px;
 	}
 	.db-stress-p2{
-		margin-top: -15px;
+		padding: 120px 0;
 		float: left;
 		width: 50%;
-		height: 656px;
 		text-align: center;
+		height: 656px;
 		.db-stress-span2{
-			background-color: #f3f3f3;
+			line-height: 35px;
 			display: block;
 			color: #444;
 			font-family: "MuseoSansCyrl_300";
 			font-size: 18px;
-			line-height: 30px;
-			padding: 124px 0;
+
 		}
 		.db-stress-span1{
 			background:url("../img/bg-p.png")no-repeat top center;

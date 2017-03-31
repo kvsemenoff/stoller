@@ -38,15 +38,14 @@
 	<?php require_once('includes/header-top1.php'); ?>
 
 	<section class="section section_padding section_sress_view">
-		<div class="db-stress-box">
+	
 			<p class="db-stress-p1">Стрессу нет!</p>
 			<div class="db-stress-fon1"></div>
 			<div class="clearfix"></div>
-		</div>
 		<div class="db-stress-box">
 			<div class="db-stress-fon2"></div>
 			<p class="db-stress-p2">
-				<span class="db-stress-span1">проблема</span>
+			<span class="db-stress-span">проблема</span>
 				<span class="db-stress-span2">Стрессовые факторы - холодная почва<br>
 					заморозки, повреждения гербицидами и<br>
 					вредителями, неблагоприятные погодные условия, <br>
@@ -56,10 +55,10 @@
 			</div>
 			<div class="db-stress-box">
 				<p class="db-stress-p3">
-					<span class="db-stress-span1">решение</span>
+					<span class="db-stress-span">решение</span>
 					<span class="db-stress-span3">
 						Однако со стресом можно и нужно бороться! <br>
-						Поможет в этом уникальная запатентованная разработка<br>
+						Поможет в этом уникальная запатентованная<br> разработка
 						компании Stoller – инновационый препарат  Bioforge.
 					</span>
 				</p>
