@@ -35,7 +35,7 @@
 		</div>
 	</section>
 
-<?php require_once('includes/header-top1.php'); ?>
+	<?php require_once('includes/header-top1.php'); ?>
 
 	<section class="section section_padding section_sress_view">
 		<div class="db-stress-box">
@@ -118,7 +118,7 @@
 			<div class="container ">
 				<div class="row">
 
-					<div class="col-md-8">
+					<div class="col-md-6">
 						<div class="dd-left_sostav">
 							<p>
 								В состав препарата входит<br>
@@ -127,7 +127,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-6">
 
 						<div class="dd-right_sostav">
 							<p>
@@ -267,14 +267,18 @@
 			<div class=" container">
 				<div class="row">
 					<div class="col-md-6">
-						<p class="result-db-p"><span>результат</span><br>
-							всходы
-						</p>
+						<div class="dd-txt_1">
+							<p class="result-db-p"><span>результат</span><br>
+								всходы
+							</p>
+						</div>
 					</div>
 					<div class="col-md-6">
-						<p class="result-db-p"><span>результат</span><br>
-							восстановление после града
-						</p>
+						<div class="dd-txt_2">
+							<p class="result-db-p"><span>результат</span><br>
+								восстановление после града
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -283,121 +287,172 @@
 
 
 
-<?php require_once('includes/four.php'); ?>
+		<section class="dd-mob_x">
+	<div class="dd-title-mob">
+		<span>Результат</span><br>
+		<span>Всходы</span>
+	</div>
 
-<section class="section section_padding">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="dd-title-tesemonials">
-					<span>Отзывы наших клиентов</span>
-				</div>
-				<div class="dd-sslider-wrap">
-					<div id="dd-slider">
-						<div class="item">
-							<div class="dd-item-box">
-								<div class="dd-item-img">
-									<img src="img/f1.png" alt="">
-								</div>
-								<div class="dd-item-txt">
-									<span>Алексей, Ровенская область</span>
-									<p>“Мое знакомство с компанией Stoller, началось с препарата Bioforge. Помимо
-										качественного результата от использования данного продукта, я хотел бы отметить
-										оперативную и грамотную поддержку сотрудника компании, что так же является немаловажным”
-									</p>
-								</div>
-							</div>
-						</div>	
-						<div class="item">
-							<div class="dd-item-box">
-								<div class="dd-item-img">
-									<img src="img/f2.png" alt="">
-								</div>
-								<div class="dd-item-txt">
-									<span>Дмитрий. Житомирская область.</span>
-									<p>“Не знаю в чем секрет продуктов Stoller, но 100 га моей сои, словно зажили новой жизнью. Рекомендую к применению”.
-									</p>
-								</div>
-							</div>
+	<div class="dd_box dd_box__1">
+		<div class="dd-b">
+			<img class="img-responsive" src="img/d2.jpg" alt="">
+		</div>
+		<div class="dd-b">
+			<img class="img-responsive" src="img/d1.jpg" alt="">
+		</div>
+		<div class="dd-four-txt">
+			<p>Контроль Bioforge</p>
+		</div>
+	</div>
+
+	<div class="dd-title-mob">
+		<span>Результат</span><br>
+		<span>Восстановление после града</span>
+	</div>
+
+	<div class="dd_box dd_box__2">
+		<div class="dd-b dd-b_x">
+			<img class="img-responsive" src="img/d4.jpg" alt="">
+		</div>
+		<div class="dd-b dd-b_x">
+			<img class="img-responsive" src="img/d5.jpg" alt="">
+		</div>
+		<div class="clearfix"></div>
+		<div class="dd-four-txt">
+			<p>Контроль Bioforge</p>
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+	
+</section>
+
+<section class="deks-x">
+	<img class="img-responsive" src="img/big.jpg" alt="">
+	<div class="dd-box-txt bb-1">
+		<span>Контроль</span>
+		<span>Bioforge</span>
+	</div>
+	<div class="dd-box-txt bb-2">
+		<span>Контроль</span>
+		<span>Bioforge</span>
+	</div>
+	<div class="clearfix"></div>
+</section>
+
+		<section class="section section_padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="dd-title-tesemonials">
+							<span>Отзывы наших клиентов</span>
 						</div>
-						<div class="item">
-							<div class="dd-item-box">
-								<div class="dd-item-img">
-									<img src="img/f3.png" alt="">
+						<div class="dd-sslider-wrap">
+							<div id="dd-slider">
+								<div class="item">
+									<div class="dd-item-box">
+										<div class="dd-item-img">
+											<img src="img/f1.png" alt="">
+										</div>
+										<div class="dd-item-txt">
+											<span>Алексей, Ровенская область</span>
+											<p>“Мое знакомство с компанией Stoller, началось с препарата Bioforge. Помимо
+												качественного результата от использования данного продукта, я хотел бы отметить
+												оперативную и грамотную поддержку сотрудника компании, что так же является немаловажным”
+											</p>
+										</div>
+									</div>
+								</div>	
+								<div class="item">
+									<div class="dd-item-box">
+										<div class="dd-item-img">
+											<img src="img/f2.png" alt="">
+										</div>
+										<div class="dd-item-txt">
+											<span>Дмитрий. Житомирская область.</span>
+											<p>“Не знаю в чем секрет продуктов Stoller, но 100 га моей сои, словно зажили новой жизнью. Рекомендую к применению”.
+											</p>
+										</div>
+									</div>
 								</div>
-								<div class="dd-item-txt">
-									<span>Данил. Одесская область.</span>
-									<p>“Перепробывав массу препаратов, направленных на питание растений в условиях сухого климата, я убедился, что такой препарат, как Bioforge – это оптимальное решение, способствующие справиться с особенностями климатических условия моего региона”.
-									</p>
+								<div class="item">
+									<div class="dd-item-box">
+										<div class="dd-item-img">
+											<img src="img/f3.png" alt="">
+										</div>
+										<div class="dd-item-txt">
+											<span>Данил. Одесская область.</span>
+											<p>“Перепробывав массу препаратов, направленных на питание растений в условиях сухого климата, я убедился, что такой препарат, как Bioforge – это оптимальное решение, способствующие справиться с особенностями климатических условия моего региона”.
+											</p>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-</section>
-<section class="section section_padding but_wrap">
-	<div class=" container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="dd-but">
-					<a href="#js-form1" name="js-modal" class="button_view button_view__footer">Заказать звонок</a>
+		</section>
+		<section class="section section_padding but_wrap">
+			<div class=" container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="dd-but">
+							<a href="#js-form1" name="js-modal" class="button_view button_view__footer">Заказать звонок</a>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-</section>
-<section class="section section_padding section_footer_view">
-	<div class=" container">
-		<div class="row">
-			<div class="col-md-3">
-				<a href="http://www.stollerukraine.com.ua" target="_blank"><span class="db-footer-one">www.stollerukraine.com.ua</span></a>
+		</section>
+		<section class="section section_padding section_footer_view">
+			<div class=" container">
+				<div class="row">
+					<div class="col-md-3">
+						<a href="http://www.stollerukraine.com.ua" target="_blank"><span class="db-footer-one">www.stollerukraine.com.ua</span></a>
+					</div>
+					<div class="col-md-3">
+						<a href="#js-form1" name="js-modal"><span class="db-footer-two">info@stollerukraine.com.ua</span></a>
+					</div>
+					<div class="col-md-3">
+						<span class="db-footer-three">+(380) 44-498-52-35</span>
+					</div>
+					<div class="col-md-3">
+						<span class="db-footer-three">+(380) 44-498-52-35</span>
+					</div>
+				</div>
 			</div>
-			<div class="col-md-3">
-				<a href="#js-form1" name="js-modal"><span class="db-footer-two">info@stollerukraine.com.ua</span></a>
+			<div id="toTop" >
+				<img src="img/top.png" alt="">
 			</div>
-			<div class="col-md-3">
-				<span class="db-footer-three">+(380) 44-498-52-35</span>
+		</section>
+		<!-- MASK -->
+		<div class="mask" id="js-mask"></div>
+		<!-- POPAPS -->
+		<div class="js-window" id="js-form1">
+			<form action="#" method="post" class="js-submit db-form1">
+				<p>Закажите<br>
+					обратный звонок!</p>
+					<input type="text" name="uname" placeholder="Имя" class="input_view input_view__name db-input1"><br><br>
+					<input type="text" name="phone" placeholder="Телефон" class="js-phone input_view  db-input2 input_view__phone"><br><br>
+					<input type="email" name="email" placeholder="E-mail"  class="input_view input_view__email db-input3"><br><br>
+					<input type="submit" name="submit" value="отправить" class="button_view db-submit">
+				</form>
 			</div>
-			<div class="col-md-3">
-				<span class="db-footer-three">+(380) 44-498-52-35</span>
-			</div>
-		</div>
-	</div>
-	<div id="toTop" >
-		<img src="img/top.png" alt="">
-	</div>
-</section>
-<!-- MASK -->
-<div class="mask" id="js-mask"></div>
-<!-- POPAPS -->
-<div class="js-window" id="js-form1">
-	<form action="#" method="post" class="js-submit db-form1">
-		<p>Закажите<br>
-			обратный звонок!</p>
-			<input type="text" name="uname" placeholder="Имя" class="input_view input_view__name db-input1"><br><br>
-			<input type="text" name="phone" placeholder="Телефон" class="js-phone input_view  db-input2 input_view__phone"><br><br>
-			<input type="email" name="email" placeholder="E-mail"  class="input_view input_view__email db-input3"><br><br>
-			<input type="submit" name="submit" value="отправить" class="button_view db-submit">
-		</form>
-	</div>
-	<div class="js-window" id="js-form2">
-		<p class="thanks">Спасибо за заявку! <br>
-			Наш менджер свяжется с Вами.</p>
+			<div class="js-window" id="js-form2">
+				<p class="thanks">Спасибо за заявку! <br>
+					Наш менджер свяжется с Вами.</p>
 
-		</div>
-		<a href="#js-form2" name="js-modal"></a>
+				</div>
+				<a href="#js-form2" name="js-modal"></a>
 
 
-	</div>
-	<a href="#js-form2" name="js-modal"></a>
-	<!-- JS_BLOCK !-->
-	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
-	<script src="js/jquery.maskedinput.min.js"></script>
-	<script src="libs/owl.carousel/owl.carousel.js"></script>
-	<script src="js/common.js"></script>
+			</div>
+			<a href="#js-form2" name="js-modal"></a>
+			<!-- JS_BLOCK !-->
+			<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+			<script src="js/jquery.maskedinput.min.js"></script>
+			<script src="libs/owl.carousel/owl.carousel.js"></script>
+			<script src="js/common.js"></script>
 
-</body>
-</html>
+		</body>
+		</html>
