@@ -28,7 +28,7 @@
 				</div>
 				<div class="col-md-4">
 					<a href="#js-form1" name="js-modal" class="button_view button_view__header db-header-button">заказать звонок</a><br>
-					<a href="#js-form1" name="js-modal"><span class="db-header-mess">info@stollerukraine.com.ua</span></a>
+					<a href="#js-form1" name="js-modal"><span class="db-header-mess">info@stollerukraine.com</span></a>
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -416,7 +416,7 @@
 						<a href="http://www.stollerukraine.com.ua" target="_blank"><span class="db-footer-one">www.stollerukraine.com.ua</span></a>
 					</div>
 					<div class="col-md-3">
-						<a href="#js-form1" name="js-modal"><span class="db-footer-two">info@stollerukraine.com.ua</span></a>
+						<a href="#js-form1" name="js-modal"><span class="db-footer-two">info@stollerukraine.com</span></a>
 					</div>
 					<div class="col-md-3">
 						<span class="db-footer-three">+(380) 44-498-52-35</span>
