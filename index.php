@@ -35,7 +35,13 @@
 		</div>
 	</section>
 
-	<?php require_once('includes/header-top1.php'); ?>
+	<div class="fullscreen-bg">
+
+    <video loop muted autoplay poster="video/plane.jpg" class="fullscreen-bg__video">
+        <source src="video/plane.mp4" type="video/mp4">
+        <source src="video/plane.webm" type="video/webm">
+    </video>
+</div>
 
 	<section class="section section_padding section_sress_view">
 	
