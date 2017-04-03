@@ -13,9 +13,44 @@
 
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/style.css">
+	<style type="text/css">
+			
+			.fullscreen-bg{
+				position: relative;
+				min-height: 560px;
 
+			}
+			.background-wrap {
+				position: absolute;
+				z-index: -1000;
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				top: 0;
+				left: 0;
+
+			}
+			
+			#video-bg-elem {
+				position: absolute;
+				top: 0;
+				left: 0;
+				min-height: 100%;
+				min-width: 100%;
+			}
+			
+			
+		</style>
 </head>
+
 <body>
+
+	   
+
+
+		
+
+
 	<section class="section section_padding section_header_view">
 		<div class=" container">
 			<div class="row">
@@ -36,12 +71,13 @@
 	</section>
 
 	<div class="fullscreen-bg">
-
-    <video loop muted autoplay poster="video/plane.jpg" class="fullscreen-bg__video">
-        <source src="video/plane.mp4" type="video/mp4">
-        <source src="video/plane.webm" type="video/webm">
-    </video>
-</div>
+	     <div class="background-wrap">
+			<video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted"> 
+				<source src="video/stollerfix.mp4" type="video/mp4">
+				Video not supported
+			</video>          
+		</div>
+	</div>
 
 	<section class="section section_padding section_sress_view">
 	
