@@ -624,6 +624,7 @@ input:focus {
 =====================*/
 .dd-sostav{
 	background:#154734;
+	background:#ffba00;
 	padding: 30px 0px;
 	padding-top: 40px;
 }
@@ -862,6 +863,9 @@ input:focus {
 	display: none;
 }
 
+
+
+
 @media only screen and (min-width : 320px) {
 
 }
@@ -890,9 +894,11 @@ input:focus {
 @media only screen and (min-width : 992px) {
 	.dd-txt_1{
 		width: 52%;
+		margin: 0 auto;
 	}
 	.dd-txt_2{
 		width: 64%;
+		margin: 0 auto;
 	}
 	.dd-mob_x{
 		display: none;
