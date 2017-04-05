@@ -17,7 +17,8 @@
 			
 			.fullscreen-bg{
 				position: relative;
-				min-height: 560px;
+				
+				//padding: 0px !important;
 
 			}
 			.background-wrap {
@@ -32,11 +33,18 @@
 			}
 			
 			#video-bg-elem {
-				position: absolute;
-				top: 0;
-				left: 0;
+				//position: absolute;
+				//top: 0;
+				//left: 0;
 				min-height: 100%;
 				min-width: 100%;
+				
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    margin-top: -25px;
+
 			}
 			
 			

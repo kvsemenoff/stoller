@@ -865,7 +865,9 @@ input:focus {
 
 
 
-
+.section_sress_view{
+	margin-top: -50px;
+}
 @media only screen and (min-width : 320px) {
 
 }
@@ -894,7 +896,8 @@ input:focus {
 @media only screen and (min-width : 992px) {
 	.dd-txt_1{
 		width: 52%;
-		margin: 0 auto;
+		//margin: 0 auto;
+		margin-left: -110px;
 	}
 	.dd-txt_2{
 		width: 64%;
