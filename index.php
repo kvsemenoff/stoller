@@ -29,6 +29,7 @@
 				overflow: hidden;
 				top: 0;
 				left: 0;
+				border-bottom: 56px solid #444444;
 
 			}
 			
@@ -63,7 +64,7 @@
 		<div class=" container">
 			<div class="row">
 				<div class="col-md-4">
-					<a href="/"><img src="img/header_top.png" alt="img" class="img-responsive db-header-logo"></a>
+					<a class="dd-log" href="/"><img src="img/header_top.png" alt="img" class="img-responsive db-header-logo"></a>
 				</div>
 				<div class="col-md-4">
 					<span class="db-header_tel">+ (380) 44-498-52-35</span><br>
@@ -124,7 +125,7 @@
 
 					<div class="col-md-12">
 						<div class="dd-title_form">
-							<p>Рассчитать эффект от использования Stoller<br>
+							<p>Рассчитать эффект от использования Stoller
 								на собственном хозяйстве?
 							</p>
 						</div>	
@@ -273,8 +274,7 @@
 
 					<div class="col-md-12">
 						<div class="dd-title_form">
-							<p>Рассчитать эффект от использования Stoller<br>
-								на собственном хозяйстве?
+							<p>Получить консультацию специалиста
 							</p>
 						</div>	
 					</div>
@@ -377,7 +377,7 @@
 </section>
 
 <section class="deks-x">
-	<img class="img-responsive" src="img/big.jpg" alt="">
+	<img class="img-responsive" src="img/big2.jpg" alt="">
 	<div class="dd-box-txt bb-1">
 		<span>Контроль</span>
 		<span>Bioforge</span>

@@ -149,9 +149,11 @@ footer, header, hgroup, menu, nav, section {
 	color: white;
 	line-height: 40px;
 	border: none;
-	outline: none;
+	outline: none !important;
 	font-family: "MuseoSansCyrl_500";
-
+}
+.dd-log{
+	outline: none !important;
 }
 .button_view:hover{
 	background:#FFE42A;
@@ -248,6 +250,7 @@ footer, header, hgroup, menu, nav, section {
 	span{
 		font-size: 40px;
 		line-height: 50px;
+		 font-family: "BebasNeue Bold";
 	}
 }
 .db-stress-box{
@@ -653,8 +656,9 @@ input:focus {
 		text-transform: uppercase;
 		line-height: 23px;
 		b{
-			font-size: 50px;
+			font-size: 70px !important;
 			line-height: 46px;
+			  font-family: "BebasNeue Bold";
 		}
 	}
 }
@@ -806,7 +810,6 @@ input:focus {
 	p{
 		font-size: 30px;
 		color: #444;
-		// font-family: "MuseoSansCyrl_500";
 		font-family: "RistrettoPro-Regular";
 
 	}
@@ -903,9 +906,9 @@ input:focus {
 
 @media only screen and (min-width : 992px) {
 	.dd-txt_1{
-		width: 52%;
+		width: 84%;
 		//margin: 0 auto;
-		margin-left: -110px;
+		// margin-left: -110px;
 	}
 	.dd-txt_2{
 		width: 64%;
@@ -925,21 +928,22 @@ input:focus {
 		span{
 			color:#fff;
 			color:#fff;
-			font-size: 22px;
-			font-family: "MuseoSansCyrl_500";
+			font-size: 40px;
+			// font-family: "MuseoSansCyrl_500";
+			 font-family: "RistrettoPro-Regular";
 			display: inline-block;
-			padding-right: 50px;
-			padding-left: 50px;
+			padding-right: 0px;
+			padding-left: 81px;
 		}
 	}
 	.bb-1{
-		width: 36%;
+		width: 42%;
 	}
 	.bb-2{
-		width: 64%;
+		width: 58%;
 		span{
-			padding-right: 150px;
-			padding-left: 150px;
+			// padding-right: 150px;
+			// padding-left: 150px;
 		}
 	}
 	.section_result_view{
