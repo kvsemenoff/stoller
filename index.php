@@ -119,6 +119,7 @@
 				<div class="clearfix"></div>
 			</div>
 		</section>
+
 		<section class="dd-form_wrap">
 			<div class="container ">
 				<div class="row">
@@ -314,15 +315,15 @@
 		</section>
 		<section class="section section_padding section_result_view">
 			<!-- <div class=" container"> -->
-				<div class="row">
-					<div class="col-md-6">
+				<div class="row marg">
+					<div class="col-md-6 pd-none">
 						<div class="dd-txt_1">
 							<p class="result-db-p"><span>результат</span><br>
 								всходы
 							</p>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 pd-none">
 						<div class="dd-txt_2">
 							<p class="result-db-p"><span>результат</span><br>
 								восстановление после града
