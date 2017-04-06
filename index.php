@@ -313,7 +313,7 @@
 
 		</section>
 		<section class="section section_padding section_result_view">
-			<div class=" container">
+			<!-- <div class=" container"> -->
 				<div class="row">
 					<div class="col-md-6">
 						<div class="dd-txt_1">
@@ -330,7 +330,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			<!-- </div> -->
 		</section>
 
 
