@@ -260,12 +260,12 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .db-stress-box:before{
-	background: url("../img/bg-p.png")no-repeat;
+	background: url("../img/bg-p.png")repeat-x;
 	content:"";
 	width: 100%;
-	height: 79px;
+	height: 73px;
 	display: block;
-	background-size: cover;
+	// background-size: cover;
 	position: relative;
 
 }
