@@ -943,22 +943,10 @@ input:focus {
 
 	}
 	.bb-1{
-		width: 42%;
-		span:first-child{
-			margin-left: -20px !important;
-		}
-		span:last-child{
-			margin-left: 180px !important;
-		}
+		width: 50%;
 	}
 	.bb-2{
-		width: 58%;
-		span:first-child{
-			margin-left: -20px !important;
-		}
-		span:last-child{
-			margin-left: 180px !important;
-		}
+		width: 50%;
 	}
 	.section_result_view{
 		display: block;
@@ -984,6 +972,26 @@ input:focus {
 			b{
 				font-size: 60px;
 			}
+		}
+	}
+}
+
+
+@media only screen and (min-width : 1448px) {
+	.bb-1{
+		span:first-child{
+			margin-left: -20px !important;
+		}
+		span:last-child{
+			margin-left: 180px !important;
+		}
+	}
+	.bb-2{
+		span:first-child{
+			margin-left: -20px !important;
+		}
+		span:last-child{
+			margin-left: 180px !important;
 		}
 	}
 }
