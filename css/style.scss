@@ -940,15 +940,24 @@ input:focus {
 			padding-right: 0px;
 			padding-left: 120px;
 		}
+
 	}
 	.bb-1{
 		width: 42%;
+		span:first-child{
+			margin-left: -20px !important;
+		}
+		span:last-child{
+			margin-left: 180px !important;
+		}
 	}
 	.bb-2{
 		width: 58%;
-		span{
-			// padding-right: 150px;
-			// padding-left: 150px;
+		span:first-child{
+			margin-left: -20px !important;
+		}
+		span:last-child{
+			margin-left: 180px !important;
 		}
 	}
 	.section_result_view{

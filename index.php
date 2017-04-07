@@ -11,15 +11,11 @@
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
 	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
 
-	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="shortcut icon" href="favicon.png" />
 	<link rel="stylesheet" href="css/style.css">
 	<style type="text/css">
-			
 			.fullscreen-bg{
 				position: relative;
-				
-				//padding: 0px !important;
-
 			}
 			.background-wrap {
 				position: absolute;
@@ -30,25 +26,18 @@
 				top: 0;
 				left: 0;
 				border-bottom: 56px solid #444444;
-
 			}
 			
 			#video-bg-elem {
-				//position: absolute;
-				//top: 0;
-				//left: 0;
 				min-height: 100%;
 				min-width: 100%;
-				
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 100%;
-    margin-top: -25px;
-
+			    margin-left: auto;
+			    margin-right: auto;
+			    display: block;
+			    width: 100%;
+			    margin-top: -25px;
 			}
-			
-			
+		
 		</style>
 </head>
 
